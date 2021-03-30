@@ -1,0 +1,26 @@
+@import "~normalize.css/normalize.css";
+
+:root {
+    --background-color: white;
+    --marker-color: black;
+    --hand-color: black;
+    --hand-seconds-color: #a00;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+@media (orientation: portrait) {
+    #root {
+        flex-direction: column;
+    }
+}
+
+@media (orientation: landscape) {
+    .clock {
+        flex-direction: row;
+    }
+}

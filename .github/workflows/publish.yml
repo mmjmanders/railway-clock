@@ -1,0 +1,27 @@
+name: publish
+on:
+  push:
+    branches:
+      - main
+jobs:
+  publish:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+        name: Checkout repository
+      - uses: actions/setup-node@v2.1.5
+        name: Install NodeJS
+        with:
+          node_version: 14.x
+      - name: Install dependencies
+        run: yarn
+      - name: Build application
+        run: yarn run build
+      - name: GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v2.3.0
+        with:
+          build_dir: build
+          committer: 'Mark Manders <mmjmanders@gmail.com>'
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

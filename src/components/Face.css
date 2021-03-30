@@ -1,0 +1,4 @@
+.bg {
+    stroke: none;
+    fill: var(--background-color);
+}

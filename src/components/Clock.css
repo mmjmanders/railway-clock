@@ -1,0 +1,13 @@
+@media (orientation: portrait) {
+    .clock {
+        width: 100vw;
+        height: 100vw;
+    }
+}
+
+@media (orientation: landscape) {
+    .clock {
+        width: 100vh;
+        height: 100vh;
+    }
+}

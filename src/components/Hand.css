@@ -1,0 +1,9 @@
+.hand {
+    stroke: var(--hand-color);
+    fill: var(--hand-color);
+}
+
+.hand.seconds {
+    stroke: var(--hand-seconds-color);
+    fill: var(--hand-seconds-color);
+}
