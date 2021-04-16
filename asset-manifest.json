@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/railway-clock/static/css/main.81d84f70.chunk.css",
+    "main.js": "/railway-clock/static/js/main.d7d581a1.chunk.js",
+    "main.js.map": "/railway-clock/static/js/main.d7d581a1.chunk.js.map",
+    "runtime-main.js": "/railway-clock/static/js/runtime-main.44f8c5e4.js",
+    "runtime-main.js.map": "/railway-clock/static/js/runtime-main.44f8c5e4.js.map",
+    "static/css/2.679831fc.chunk.css": "/railway-clock/static/css/2.679831fc.chunk.css",
+    "static/js/2.759cb92a.chunk.js": "/railway-clock/static/js/2.759cb92a.chunk.js",
+    "static/js/2.759cb92a.chunk.js.map": "/railway-clock/static/js/2.759cb92a.chunk.js.map",
+    "static/js/3.2648c438.chunk.js": "/railway-clock/static/js/3.2648c438.chunk.js",
+    "static/js/3.2648c438.chunk.js.map": "/railway-clock/static/js/3.2648c438.chunk.js.map",
+    "index.html": "/railway-clock/index.html",
+    "static/css/2.679831fc.chunk.css.map": "/railway-clock/static/css/2.679831fc.chunk.css.map",
+    "static/css/main.81d84f70.chunk.css.map": "/railway-clock/static/css/main.81d84f70.chunk.css.map",
+    "static/js/2.759cb92a.chunk.js.LICENSE.txt": "/railway-clock/static/js/2.759cb92a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44f8c5e4.js",
+    "static/css/2.679831fc.chunk.css",
+    "static/js/2.759cb92a.chunk.js",
+    "static/css/main.81d84f70.chunk.css",
+    "static/js/main.d7d581a1.chunk.js"
+  ]
+}
