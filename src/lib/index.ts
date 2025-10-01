@@ -1,1 +1,3 @@
-// place files you want to import through the `$lib` alias in this folder.
+import { default as Clock } from './components/Clock.svelte';
+
+export default Clock;
