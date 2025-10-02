@@ -2,9 +2,10 @@
 	import Clock from '$lib';
 
 	let date = $state(new Date());
-	let hours = $derived(date.getHours() % 12);
-	let minutes = $derived(date.getMinutes());
-	let seconds = $derived(date.getSeconds());
+	const hours = $derived(date.getHours() % 12);
+	const minutes = $derived(date.getMinutes());
+	const seconds = $derived(date.getSeconds());
+
 	$effect(() => {
 		const interval = setInterval(() => {
 			date = new Date();
@@ -14,6 +15,6 @@
 	});
 </script>
 
-<div>
+<div class="mx-auto h-[100vmin] w-[100vmin] p-4">
 	<Clock {hours} {minutes} {seconds} />
 </div>
