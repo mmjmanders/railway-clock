@@ -13,16 +13,30 @@
 		.filter((i) => i % 5 !== 0);
 </script>
 
-<svg viewBox="-500 -500 1000 1000">
+<svg viewBox="-500 -500 1000 1000" class="[--rwc-shadow:var(--color-neutral-950)]">
 	<defs>
 		<path id="hour-marker" class="fill-current" d="M -15,-500 l 30,0 l 0,100 l -30,0 z" />
 		<path id="minute-marker" class="fill-current" d="M -7.5,-500 l 15,0 l 0,40 l -15,0 z" />
-		<path id="hour-hand" class="fill-current" d="M -20,-350 l 40,0 l 0,460 l -40,0 z" />
-		<path id="minute-hand" class="fill-current" d="M -20,-490 l 40,0 l 0,600 l -40,0 z" />
-		<g id="second-hand" class="text-red-600 dark:text-red-800">
-			<circle class="fill-current" cx="0" cy="0" r="10" />
+		<path
+			id="hour-hand"
+			class="fill-current"
+			filter="drop-shadow(3 3 10 var(--rwc-shadow))"
+			d="M -20,-350 l 40,0 l 0,460 l -40,0 z"
+		/>
+		<path
+			id="minute-hand"
+			class="fill-current"
+			filter="drop-shadow(3 3 10 var(--rwc-shadow))"
+			d="M -20,-490 l 40,0 l 0,600 l -40,0 z"
+		/>
+		<g
+			id="second-hand"
+			class="text-red-600 dark:text-red-800"
+			filter="drop-shadow(3 3 10 var(--rwc-shadow))"
+		>
 			<path class="fill-current" d="M -5,-360 l 10,0 l 0,480 l -10,0 z" />
 			<circle class="fill-current" cx="0" cy="-320" r="25" />
+			<circle class="fill-current" cx="0" cy="0" r="10" />
 		</g>
 	</defs>
 	<g id="hour-markers" class="text-neutral-950 dark:text-neutral-50">
