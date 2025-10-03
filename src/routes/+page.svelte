@@ -16,5 +16,5 @@
 </script>
 
 <div class="mx-auto h-[100vmin] w-[100vmin] p-4">
-	<Clock {hours} {minutes} {seconds} />
+	<Clock {hours} {minutes} {seconds} {date} />
 </div>
