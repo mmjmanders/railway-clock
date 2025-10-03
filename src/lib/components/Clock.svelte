@@ -1,9 +1,17 @@
 <script lang="ts">
+	import dayjs from 'dayjs';
 	import { default as HourHand } from './HourHand.svelte';
 	import { default as MinuteHand } from './MinuteHand.svelte';
 	import { default as SecondHand } from './SecondHand.svelte';
 
-	const { hours, minutes, seconds }: { hours: number; minutes: number; seconds: number } = $props();
+	const {
+		hours,
+		minutes,
+		seconds,
+		date
+	}: { hours: number; minutes: number; seconds: number; date: Date } = $props();
+	const day = $derived(date.getDate());
+	const dayOfWeek = $derived.by(() => dayjs(date).format('ddd'));
 	const hourMarkers = Array(12)
 		.fill(0)
 		.map((_, i) => i);
@@ -38,6 +46,19 @@
 			<circle class="fill-current" cx="0" cy="0" r="10" />
 		</g>
 	</defs>
+	<g id="date">
+		<text
+			x="0"
+			y="280"
+			dominant-baseline="middle"
+			text-anchor="middle"
+			class="font-[Merriweather_Variable] text-5xl"
+		>
+			<tspan class="fill-neutral-950 dark:fill-neutral-50">{dayOfWeek}&nbsp;</tspan><tspan
+				class="fill-red-600 dark:fill-red-800">{day}</tspan
+			>
+		</text>
+	</g>
 	<g id="hour-markers" class="text-neutral-950 dark:text-neutral-50">
 		{#each hourMarkers as marker (marker)}
 			<use href="#hour-marker" transform="rotate({marker * (360 / 12)})" />
