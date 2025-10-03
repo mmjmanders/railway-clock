@@ -1,5 +1,4 @@
 <script lang="ts">
-	import dayjs from 'dayjs';
 	import { default as HourHand } from './HourHand.svelte';
 	import { default as MinuteHand } from './MinuteHand.svelte';
 	import { default as SecondHand } from './SecondHand.svelte';
@@ -11,7 +10,7 @@
 		date
 	}: { hours: number; minutes: number; seconds: number; date: Date } = $props();
 	const day = $derived(date.getDate());
-	const dayOfWeek = $derived.by(() => dayjs(date).format('ddd'));
+	const dayOfWeek = $derived(date.toLocaleDateString(undefined, { weekday: 'short' }));
 	const hourMarkers = Array(12)
 		.fill(0)
 		.map((_, i) => i);
