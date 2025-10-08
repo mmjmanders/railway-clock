@@ -52,7 +52,7 @@
 			y="280"
 			dominant-baseline="middle"
 			text-anchor="middle"
-			class="font-[Merriweather_Variable] text-5xl"
+			class="font-[DM_Serif_Display] text-5xl"
 		>
 			<tspan class="fill-neutral-950 dark:fill-neutral-50">{dayOfWeek}&nbsp;</tspan><tspan
 				class="fill-red-600 dark:fill-red-800">{day}</tspan
