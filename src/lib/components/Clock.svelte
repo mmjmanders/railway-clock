@@ -2,6 +2,7 @@
 	import { default as HourHand } from './HourHand.svelte';
 	import { default as MinuteHand } from './MinuteHand.svelte';
 	import { default as SecondHand } from './SecondHand.svelte';
+	import { PUBLIC_BUILD_SHA as buildSha } from '$env/static/public';
 
 	const {
 		hours,
@@ -57,6 +58,16 @@
 				class="fill-red-600 dark:fill-red-800">{day}</tspan
 			>
 		</text>
+	</g>
+	<g id="hash">
+		<text
+			x="0"
+			y="340"
+			dominant-baseline="middle"
+			text-anchor="middle"
+			class="fill-neutral-950 font-[Roboto_Mono_Variable] text-base dark:fill-neutral-50"
+			>{buildSha}</text
+		>
 	</g>
 	<g id="hour-markers" class="text-neutral-950 dark:text-neutral-50">
 		{#each hourMarkers as marker (marker)}

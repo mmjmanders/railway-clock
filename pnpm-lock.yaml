@@ -11,6 +11,9 @@ importers:
       '@fontsource-variable/merriweather':
         specifier: ^5.2.6
         version: 5.2.6
+      '@fontsource-variable/roboto-mono':
+        specifier: ^5.2.8
+        version: 5.2.8
     devDependencies:
       '@eslint/compat':
         specifier: ^1.4.0
@@ -289,6 +292,9 @@ packages:
 
   '@fontsource-variable/merriweather@5.2.6':
     resolution: {integrity: sha512-bHCDt99f/M48eUcFA86uh/oSPyn8r/ZxXR9l578wqLvjTwDzXx8A/XOAI05WfJ3LnH1rDufQX5RJwiZtbXUCkw==}
+
+  '@fontsource-variable/roboto-mono@5.2.8':
+    resolution: {integrity: sha512-6M2U3wGIUxYNKRrUoKls8BRRIPDA57T8J0agqwyDkiEHrLEEAqptsxcUl3eTm6tnRNEn6yEm4pCefvtnujebDA==}
 
   '@humanfs/core@0.19.1':
     resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
@@ -1715,6 +1721,8 @@ snapshots:
       levn: 0.4.1
 
   '@fontsource-variable/merriweather@5.2.6': {}
+
+  '@fontsource-variable/roboto-mono@5.2.8': {}
 
   '@humanfs/core@0.19.1': {}
 
