@@ -1,5 +1,5 @@
 <script lang="ts">
-	import '@fontsource-variable/merriweather';
+	import '@fontsource/dm-serif-display';
 	import '@fontsource-variable/roboto-mono';
 
 	import '../app.css';
