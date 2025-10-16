@@ -60,10 +60,11 @@
 		/>
 		<text
 			x="0"
-			y="280"
-			dominant-baseline="middle"
+			y="275"
+			dominant-baseline="central"
 			text-anchor="middle"
-			class="font-[DM_Serif_Display] text-5xl"
+			font-size="48"
+			class="font-[DM_Serif_Display]"
 		>
 			<tspan class="fill-neutral-950 dark:fill-neutral-50">{dayOfWeek}</tspan>
 			<tspan class="fill-red-600 dark:fill-red-800">{day}</tspan>
