@@ -47,6 +47,17 @@
 		</g>
 	</defs>
 	<g id="date">
+		<rect
+			x="-100"
+			y="240"
+			rx="15"
+			ry="15"
+			width="200"
+			height="70"
+			fill="transparent"
+			stroke-width="2"
+			class="stroke-neutral-950 dark:stroke-neutral-50"
+		/>
 		<text
 			x="0"
 			y="280"
@@ -61,7 +72,7 @@
 	<g id="hash">
 		<text
 			x="0"
-			y="340"
+			y="350"
 			dominant-baseline="middle"
 			text-anchor="middle"
 			class="fill-neutral-950 font-[Roboto_Mono_Variable] text-base dark:fill-neutral-50"
