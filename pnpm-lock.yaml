@@ -17,9 +17,6 @@ importers:
       '@fontsource/dm-serif-display':
         specifier: ^5.2.8
         version: 5.2.8
-      '@fortawesome/fontawesome-free':
-        specifier: ^7.1.0
-        version: 7.1.0
     devDependencies:
       '@eslint/compat':
         specifier: ^1.4.0
@@ -304,10 +301,6 @@ packages:
 
   '@fontsource/dm-serif-display@5.2.8':
     resolution: {integrity: sha512-GYSDSlGU6vyhv9a5MwaiVNf9HCuSVpK8hEFRyG4NNDHCDeHiX7YHDAcWsaoLKKcfXLgWG9YkBkk9T3SxM4rAjQ==}
-
-  '@fortawesome/fontawesome-free@7.1.0':
-    resolution: {integrity: sha512-+WxNld5ZCJHvPQCr/GnzCTVREyStrAJjisUPtUxG5ngDA8TMlPnKp6dddlTpai4+1GNmltAeuk1hJEkBohwZYA==}
-    engines: {node: '>=6'}
 
   '@humanfs/core@0.19.1':
     resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
@@ -1967,8 +1960,6 @@ snapshots:
   '@fontsource-variable/roboto-mono@5.2.8': {}
 
   '@fontsource/dm-serif-display@5.2.8': {}
-
-  '@fortawesome/fontawesome-free@7.1.0': {}
 
   '@humanfs/core@0.19.1': {}
 

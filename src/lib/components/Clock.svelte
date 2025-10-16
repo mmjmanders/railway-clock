@@ -54,11 +54,8 @@
 			text-anchor="middle"
 			class="font-[DM_Serif_Display] text-5xl"
 		>
-			<tspan class="fill-neutral-950 font-['Font_Awesome_7_Free'] dark:fill-neutral-50"
-				>&#xf133;</tspan
-			><tspan class="fill-neutral-950 dark:fill-neutral-50">&nbsp;{dayOfWeek}&nbsp;</tspan><tspan
-				class="fill-red-600 dark:fill-red-800">{day}</tspan
-			>
+			<tspan class="fill-neutral-950 dark:fill-neutral-50">{dayOfWeek}</tspan>
+			<tspan class="fill-red-600 dark:fill-red-800">{day}</tspan>
 		</text>
 	</g>
 	<g id="hash">
