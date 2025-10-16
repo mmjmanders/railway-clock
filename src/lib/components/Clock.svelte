@@ -32,16 +32,16 @@
 			id="hour-hand"
 			class="fill-current"
 			filter="url(#shadow)"
-			d="M -20,-350 l 40,0 l 0,460 l -40,0 z"
+			d="M -15,-350 l 30,0 L 20,130 l -40,0 z"
 		/>
 		<path
 			id="minute-hand"
 			class="fill-current"
 			filter="url(#shadow)"
-			d="M -20,-490 l 40,0 l 0,600 l -40,0 z"
+			d="M -15,-475 l 30,0 L 20,130 l -40,0 z"
 		/>
 		<g id="second-hand" class="text-red-600 dark:text-red-800" filter="url(#shadow)">
-			<path class="fill-current" d="M -5,-360 l 10,0 l 0,480 l -10,0 z" />
+			<path class="fill-current" d="M -5,-385 l 10,0 L 5,180 l -10,0 z" />
 			<circle class="fill-current" cx="0" cy="-320" r="25" />
 			<circle class="fill-current" cx="0" cy="0" r="10" />
 		</g>
@@ -55,7 +55,7 @@
 			class="font-[DM_Serif_Display] text-5xl"
 		>
 			<tspan class="fill-neutral-950 font-['Font_Awesome_7_Free'] dark:fill-neutral-50"
-				>&#xf073;</tspan
+				>&#xf133;</tspan
 			><tspan class="fill-neutral-950 dark:fill-neutral-50">&nbsp;{dayOfWeek}&nbsp;</tspan><tspan
 				class="fill-red-600 dark:fill-red-800">{day}</tspan
 			>
