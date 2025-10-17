@@ -47,24 +47,12 @@
 		</g>
 	</defs>
 	<g id="date">
-		<rect
-			x="-100"
-			y="240"
-			rx="15"
-			ry="15"
-			width="200"
-			height="70"
-			fill="transparent"
-			stroke-width="2"
-			class="stroke-neutral-950 dark:stroke-neutral-50"
-		/>
 		<text
 			x="0"
 			y="275"
 			dominant-baseline="central"
 			text-anchor="middle"
-			font-size="48"
-			class="font-[DM_Serif_Display]"
+			class="font-[DM_Serif_Display] text-5xl"
 		>
 			<tspan class="fill-neutral-950 dark:fill-neutral-50">{dayOfWeek}</tspan>
 			<tspan class="fill-red-600 dark:fill-red-800">{day}</tspan>
@@ -73,8 +61,8 @@
 	<g id="hash">
 		<text
 			x="0"
-			y="350"
-			dominant-baseline="middle"
+			y="330"
+			dominant-baseline="central"
 			text-anchor="middle"
 			class="fill-neutral-950 font-[Roboto_Mono_Variable] text-base dark:fill-neutral-50"
 			>{buildSha}</text
