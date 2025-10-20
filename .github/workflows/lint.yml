@@ -3,6 +3,7 @@ on:
     paths:
       - 'src/**'
       - 'pnpm-lock.yaml'
+      - '.github/**'
 
 jobs:
   lint:
