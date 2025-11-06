@@ -1,7 +1,7 @@
 {
 	"name": "Railway Clock",
 	"short_name": "Railway Clock",
-	"start_url": "https://mmjmanders.github.io/railway-clock/",
+	"start_url": "/railway-clock/",
 	"icons": [
 		{
 			"src": "/railway-clock/web-app-manifest-192x192.png",
