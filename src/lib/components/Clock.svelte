@@ -8,8 +8,10 @@
 		hours,
 		minutes,
 		seconds,
+		milliseconds,
 		date
-	}: { hours: number; minutes: number; seconds: number; date: Date } = $props();
+	}: { hours: number; minutes: number; seconds: number; milliseconds: number; date: Date } =
+		$props();
 	const day = $derived(date.getDate());
 	const dayOfWeek = $derived(date.toLocaleDateString(undefined, { weekday: 'short' }));
 	const hourMarkers = Array(12)
@@ -81,6 +83,6 @@
 	<g id="hands" class="text-neutral-950 dark:text-neutral-50">
 		<HourHand {hours} {minutes} />
 		<MinuteHand {minutes} />
-		<SecondHand {seconds} />
+		<SecondHand {seconds} {milliseconds} />
 	</g>
 </svg>
