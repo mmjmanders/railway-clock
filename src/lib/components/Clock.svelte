@@ -66,8 +66,7 @@
 			y="330"
 			dominant-baseline="central"
 			text-anchor="middle"
-			class="fill-neutral-950 font-[Roboto_Mono_Variable] text-base dark:fill-neutral-50"
-			>{buildSha}</text
+			class="fill-neutral-950 font-[Roboto_Mono] text-base dark:fill-neutral-50">{buildSha}</text
 		>
 	</g>
 	<g id="hour-markers" class="text-neutral-950 dark:text-neutral-50">
